@@ -1,0 +1,28 @@
+[project]
+name = "shopping-ai-stateless"
+version = "0.1.0"
+description = "Stateless MCP execution service for Symy shopping capabilities"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.110",
+  "fastmcp>=2.0",
+  "pydantic>=2.0",
+  "uvicorn>=0.27",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+llm = ["openai>=1.0"]
+cart = ["supabase>=2.0"]
+test = ["pytest>=8.0", "pytest-asyncio>=0.23"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]

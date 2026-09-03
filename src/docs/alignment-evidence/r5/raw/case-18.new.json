@@ -1,0 +1,74 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:19:29 GMT",
+      "server": "uvicorn",
+      "cache-control": "no-cache, no-transform",
+      "connection": "keep-alive",
+      "content-type": "text/event-stream",
+      "x-accel-buffering": "no",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":17,\"result\":{\"content\":[{\"text\":\"{\\\"trace_id\\\":\\\"trace_34739fbf7b10edda\\\",\\\"ok\\\":true,\\\"data\\\":{\\\"reply_draft\\\":\\\"已将贵州酱香白酒 500ml 加入购物车，数量为 1 件，总价 328.00 CNY。请注意，购物车总价已更新，但还未结算。如有其他商品需求，请告知。\\\",\\\"product_cards\\\":[],\\\"actions\\\":[{\\\"type\\\":\\\"cart_add\\\",\\\"payload\\\":{\\\"product_ref\\\":\\\"baijiu-jiangxiang-500ml\\\",\\\"qty\\\":1},\\\"executed\\\":true}],\\\"warnings\\\":[]},\\\"error\\\":null}\",\"type\":\"text\"}],\"isError\":false,\"structuredContent\":{\"trace_id\":\"trace_34739fbf7b10edda\",\"ok\":true,\"data\":{\"reply_draft\":\"已将贵州酱香白酒 500ml 加入购物车，数量为 1 件，总价 328.00 CNY。请注意，购物车总价已更新，但还未结算。如有其他商品需求，请告知。\",\"product_cards\":[],\"actions\":[{\"type\":\"cart_add\",\"payload\":{\"product_ref\":\"baijiu-jiangxiang-500ml\",\"qty\":1},\"executed\":true}],\"warnings\":[]},\"error\":null}}}\r\n\r\n",
+    "meta": {
+      "started": "2026-09-03T20:19:30.827674+08:00",
+      "finished": "2026-09-03T20:19:37.046692+08:00",
+      "host": [
+        "127.0.0.1",
+        8910
+      ],
+      "method": "POST",
+      "path": "/mcp/",
+      "request_body": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "method": "tools/call",
+        "params": {
+          "name": "symy_chat",
+          "arguments": {
+            "user_message": "把它放进购物车",
+            "chat_history": [
+              {
+                "role": "user",
+                "content": "推荐茅台镇酱酒"
+              },
+              {
+                "role": "assistant",
+                "content": "茅台镇酱酒 500ml，价格 468.00 CNY"
+              }
+            ],
+            "context": {
+              "user_ref": "align-r5-18",
+              "session_ref": "align-r5-18",
+              "lang": "zh",
+              "currency": "CNY",
+              "budget_cents": 50000,
+              "cart_total_cents": 12000
+            }
+          }
+        }
+      }
+    },
+    "parsed_tool_result": {
+      "trace_id": "trace_34739fbf7b10edda",
+      "ok": true,
+      "data": {
+        "reply_draft": "已将贵州酱香白酒 500ml 加入购物车，数量为 1 件，总价 328.00 CNY。请注意，购物车总价已更新，但还未结算。如有其他商品需求，请告知。",
+        "product_cards": [],
+        "actions": [
+          {
+            "type": "cart_add",
+            "payload": {
+              "product_ref": "baijiu-jiangxiang-500ml",
+              "qty": 1
+            },
+            "executed": true
+          }
+        ],
+        "warnings": []
+      },
+      "error": null
+    }
+  }
+]

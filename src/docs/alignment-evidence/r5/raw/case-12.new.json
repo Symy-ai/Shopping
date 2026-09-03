@@ -1,0 +1,72 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:10 GMT",
+      "server": "uvicorn",
+      "cache-control": "no-cache, no-transform",
+      "connection": "keep-alive",
+      "content-type": "text/event-stream",
+      "x-accel-buffering": "no",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":17,\"result\":{\"content\":[{\"text\":\"{\\\"trace_id\\\":\\\"trace_44f40b2979aa1d8b\\\",\\\"ok\\\":true,\\\"data\\\":{\\\"cart_lines\\\":[{\\\"product_ref\\\":\\\"baijiu-jiangxiang-500ml\\\",\\\"title\\\":\\\"贵州酱香白酒 500ml\\\",\\\"qty\\\":2,\\\"price_cents\\\":32800,\\\"currency\\\":\\\"CNY\\\",\\\"image_url\\\":\\\"https://ddimg.cn/hotlink/sauce-baijiu.jpg\\\",\\\"unit_price_cents\\\":32800}],\\\"cart_total_cents\\\":65600,\\\"warnings\\\":[{\\\"code\\\":\\\"BUDGET_EXCEEDED_WARNING\\\",\\\"message\\\":\\\"购物车总额 656.00 CNY，超出预算 200.00。\\\"}]},\\\"error\\\":null}\",\"type\":\"text\"}],\"isError\":false,\"structuredContent\":{\"trace_id\":\"trace_44f40b2979aa1d8b\",\"ok\":true,\"data\":{\"cart_lines\":[{\"product_ref\":\"baijiu-jiangxiang-500ml\",\"title\":\"贵州酱香白酒 500ml\",\"qty\":2,\"price_cents\":32800,\"currency\":\"CNY\",\"image_url\":\"https://ddimg.cn/hotlink/sauce-baijiu.jpg\",\"unit_price_cents\":32800}],\"cart_total_cents\":65600,\"warnings\":[{\"code\":\"BUDGET_EXCEEDED_WARNING\",\"message\":\"购物车总额 656.00 CNY，超出预算 200.00。\"}]},\"error\":null}}}\r\n\r\n",
+    "meta": {
+      "started": "2026-09-03T20:17:11.458844+08:00",
+      "finished": "2026-09-03T20:17:11.463779+08:00",
+      "host": [
+        "127.0.0.1",
+        8910
+      ],
+      "method": "POST",
+      "path": "/mcp/",
+      "request_body": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "method": "tools/call",
+        "params": {
+          "name": "symy_cart",
+          "arguments": {
+            "action": "add",
+            "context": {
+              "user_ref": "align-r5-12",
+              "session_ref": "align-r5-12",
+              "lang": "zh",
+              "currency": "CNY",
+              "budget_cents": 20000
+            },
+            "item": {
+              "product_ref": "baijiu-jiangxiang-500ml",
+              "qty": 1
+            }
+          }
+        }
+      }
+    },
+    "parsed_tool_result": {
+      "trace_id": "trace_44f40b2979aa1d8b",
+      "ok": true,
+      "data": {
+        "cart_lines": [
+          {
+            "product_ref": "baijiu-jiangxiang-500ml",
+            "title": "贵州酱香白酒 500ml",
+            "qty": 2,
+            "price_cents": 32800,
+            "currency": "CNY",
+            "image_url": "https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+            "unit_price_cents": 32800
+          }
+        ],
+        "cart_total_cents": 65600,
+        "warnings": [
+          {
+            "code": "BUDGET_EXCEEDED_WARNING",
+            "message": "购物车总额 656.00 CNY，超出预算 200.00。"
+          }
+        ]
+      },
+      "error": null
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:46 GMT",
+      "server": "uvicorn",
+      "cache-control": "no-cache, no-transform",
+      "connection": "keep-alive",
+      "content-type": "text/event-stream",
+      "x-accel-buffering": "no",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":17,\"result\":{\"content\":[{\"text\":\"{\\\"trace_id\\\":\\\"trace_628339d3f074a001\\\",\\\"ok\\\":true,\\\"data\\\":{\\\"reply_draft\\\":\\\"好的，这两款白酒各有特色。茅台镇酱酒以其独特的酱香和浓郁的口感著称，而贵州酱香白酒则更加注重醇厚和协调。建议您根据个人口味和预算来选择。如果您需要更多细节或者有其他需求，请告诉我。\\\",\\\"product_cards\\\":[],\\\"actions\\\":[{\\\"type\\\":\\\"search\\\",\\\"payload\\\":{\\\"query\\\":\\\"帮我比比茅台镇酱酒和贵州酱香白酒\\\"}}],\\\"warnings\\\":[]},\\\"error\\\":null}\",\"type\":\"text\"}],\"isError\":false,\"structuredContent\":{\"trace_id\":\"trace_628339d3f074a001\",\"ok\":true,\"data\":{\"reply_draft\":\"好的，这两款白酒各有特色。茅台镇酱酒以其独特的酱香和浓郁的口感著称，而贵州酱香白酒则更加注重醇厚和协调。建议您根据个人口味和预算来选择。如果您需要更多细节或者有其他需求，请告诉我。\",\"product_cards\":[],\"actions\":[{\"type\":\"search\",\"payload\":{\"query\":\"帮我比比茅台镇酱酒和贵州酱香白酒\"}}],\"warnings\":[]},\"error\":null}}}\r\n\r\n",
+    "meta": {
+      "started": "2026-09-03T20:17:46.704289+08:00",
+      "finished": "2026-09-03T20:17:57.657502+08:00",
+      "host": [
+        "127.0.0.1",
+        8910
+      ],
+      "method": "POST",
+      "path": "/mcp/",
+      "request_body": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "method": "tools/call",
+        "params": {
+          "name": "symy_chat",
+          "arguments": {
+            "user_message": "帮我比比茅台镇酱酒和贵州酱香白酒",
+            "context": {
+              "user_ref": "align-r5-17",
+              "session_ref": "align-r5-17",
+              "lang": "zh",
+              "currency": "CNY",
+              "budget_cents": 50000,
+              "cart_total_cents": 12000
+            }
+          }
+        }
+      }
+    },
+    "parsed_tool_result": {
+      "trace_id": "trace_628339d3f074a001",
+      "ok": true,
+      "data": {
+        "reply_draft": "好的，这两款白酒各有特色。茅台镇酱酒以其独特的酱香和浓郁的口感著称，而贵州酱香白酒则更加注重醇厚和协调。建议您根据个人口味和预算来选择。如果您需要更多细节或者有其他需求，请告诉我。",
+        "product_cards": [],
+        "actions": [
+          {
+            "type": "search",
+            "payload": {
+              "query": "帮我比比茅台镇酱酒和贵州酱香白酒"
+            }
+          }
+        ],
+        "warnings": []
+      },
+      "error": null
+    }
+  }
+]

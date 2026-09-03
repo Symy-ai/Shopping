@@ -1,0 +1,237 @@
+{
+  "cart_add": {
+    "data": {
+      "cart_lines": [
+        {
+          "currency": "CNY",
+          "image_url": "https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+          "price_cents": 32800,
+          "product_ref": "baijiu-jiangxiang-500ml",
+          "qty": 1,
+          "title": "贵州酱香白酒 500ml",
+          "unit_price_cents": 32800
+        }
+      ],
+      "cart_total_cents": 32800,
+      "warnings": [
+        {
+          "code": "BUDGET_EXCEEDED_WARNING",
+          "message": "购物车总额 328.00 CNY，超出预算 200.00。"
+        }
+      ]
+    },
+    "error": null,
+    "ok": true,
+    "trace_id": "trace_c4f30c864d6dd859"
+  },
+  "cart_checkout": {
+    "data": {
+      "cart_lines": [
+        {
+          "currency": "CNY",
+          "image_url": "https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+          "price_cents": 32800,
+          "product_ref": "baijiu-jiangxiang-500ml",
+          "qty": 1,
+          "title": "贵州酱香白酒 500ml",
+          "unit_price_cents": 32800
+        }
+      ],
+      "cart_total_cents": 32800,
+      "warnings": [
+        {
+          "code": "BUDGET_EXCEEDED_WARNING",
+          "message": "购物车总额 328.00 CNY，超出预算 200.00。"
+        }
+      ]
+    },
+    "error": null,
+    "ok": true,
+    "trace_id": "trace_9f48e36a891b2c9a"
+  },
+  "cart_list": {
+    "data": {
+      "cart_lines": [
+        {
+          "currency": "CNY",
+          "image_url": "https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+          "price_cents": 32800,
+          "product_ref": "baijiu-jiangxiang-500ml",
+          "qty": 1,
+          "title": "贵州酱香白酒 500ml",
+          "unit_price_cents": 32800
+        }
+      ],
+      "cart_total_cents": 32800,
+      "warnings": [
+        {
+          "code": "BUDGET_EXCEEDED_WARNING",
+          "message": "购物车总额 328.00 CNY，超出预算 200.00。"
+        }
+      ]
+    },
+    "error": null,
+    "ok": true,
+    "trace_id": "trace_7959d03d594f32a2"
+  },
+  "chat": {
+    "data": {
+      "actions": [
+        {
+          "payload": {
+            "a": "茅台镇酱酒",
+            "b": "贵州酱香白酒"
+          },
+          "type": "compare"
+        }
+      ],
+      "product_cards": [
+        {
+          "category": "goods",
+          "compliance": [
+            "ALCOHOL_CNY"
+          ],
+          "currency": "CNY",
+          "image_url": "http://localhost:8009/img?url=https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+          "in_stock": true,
+          "marketplace_url": "https://ddimg.cn/sauce-baijiu",
+          "price_cents": 32800,
+          "product_ref": "baijiu-jiangxiang-500ml",
+          "source": "ddimg",
+          "subcategory": "baijiu",
+          "title": "贵州酱香白酒 500ml",
+          "unit_label": "/500ml",
+          "unit_price_cents": 32800
+        },
+        {
+          "category": "goods",
+          "compliance": [
+            "ALCOHOL_CNY"
+          ],
+          "currency": "CNY",
+          "image_url": "http://localhost:8009/img?url=https://ddimg.cn/hotlink/maotai-town.jpg",
+          "in_stock": true,
+          "marketplace_url": "https://ddimg.cn/maotai-town",
+          "price_cents": 46800,
+          "product_ref": "maotai-town-500ml",
+          "source": "ddimg",
+          "subcategory": "baijiu",
+          "title": "茅台镇酱酒 500ml",
+          "unit_label": "/500ml",
+          "unit_price_cents": 46800
+        }
+      ],
+      "reply_draft": "我按单价从低到高看了两件：贵州酱香白酒 500ml和茅台镇酱酒 500ml，可先看第一件，再确认规格是否符合需要。",
+      "warnings": [
+        {
+          "code": "COMPLIANCE_WARNING",
+          "message": "涉及酒类等受控商品，请遵守当地法规并理性消费。"
+        }
+      ]
+    },
+    "error": null,
+    "ok": true,
+    "trace_id": "trace_1c07ab93286cf7e7"
+  },
+  "compare": {
+    "data": {
+      "items": [
+        {
+          "category": "goods",
+          "compliance": [
+            "ALCOHOL_CNY"
+          ],
+          "currency": "CNY",
+          "image_url": "http://localhost:8009/img?url=https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+          "in_stock": true,
+          "marketplace_url": "https://ddimg.cn/sauce-baijiu",
+          "price_cents": 32800,
+          "product_ref": "baijiu-jiangxiang-500ml",
+          "source": "ddimg",
+          "subcategory": "baijiu",
+          "title": "贵州酱香白酒 500ml",
+          "unit_label": "/500ml",
+          "unit_price_cents": 32800
+        },
+        {
+          "category": "goods",
+          "compliance": [
+            "ALCOHOL_CNY"
+          ],
+          "currency": "CNY",
+          "image_url": "http://localhost:8009/img?url=https://ddimg.cn/hotlink/maotai-100.jpg",
+          "in_stock": true,
+          "marketplace_url": "https://ddimg.cn/maotai-100",
+          "price_cents": 22800,
+          "product_ref": "maotai-town-100ml",
+          "source": "ddimg",
+          "subcategory": "baijiu",
+          "title": "茅台镇酱酒 100ml",
+          "unit_label": "/100ml",
+          "unit_price_cents": 228000
+        }
+      ],
+      "notes": [
+        "规格不同：/100ml vs /500ml，已按单价归一化。",
+        "涉及酒类等受控商品，请遵守当地法规并理性消费。"
+      ],
+      "unit_price_delta": 195200,
+      "verdict_hint": "单价更低者排前，优先考虑第一项。"
+    },
+    "error": null,
+    "ok": true,
+    "trace_id": "trace_e898edd1876226e1"
+  },
+  "search": {
+    "data": {
+      "actions": [],
+      "applied_filters": {
+        "category": null,
+        "price_max_cents": 50000,
+        "price_min_cents": 20000,
+        "subcategory": null
+      },
+      "cards": [
+        {
+          "category": "goods",
+          "compliance": [
+            "ALCOHOL_CNY"
+          ],
+          "currency": "CNY",
+          "image_url": "http://localhost:8009/img?url=https://ddimg.cn/hotlink/sauce-baijiu.jpg",
+          "in_stock": true,
+          "marketplace_url": "https://ddimg.cn/sauce-baijiu",
+          "price_cents": 32800,
+          "product_ref": "baijiu-jiangxiang-500ml",
+          "source": "ddimg",
+          "subcategory": "baijiu",
+          "title": "贵州酱香白酒 500ml",
+          "unit_label": "/500ml",
+          "unit_price_cents": 32800
+        },
+        {
+          "category": "goods",
+          "compliance": [
+            "ALCOHOL_CNY"
+          ],
+          "currency": "CNY",
+          "image_url": "http://localhost:8009/img?url=https://ddimg.cn/hotlink/maotai-town.jpg",
+          "in_stock": true,
+          "marketplace_url": "https://ddimg.cn/maotai-town",
+          "price_cents": 46800,
+          "product_ref": "maotai-town-500ml",
+          "source": "ddimg",
+          "subcategory": "baijiu",
+          "title": "茅台镇酱酒 500ml",
+          "unit_label": "/500ml",
+          "unit_price_cents": 46800
+        }
+      ],
+      "message": null,
+      "total_hits": 2
+    },
+    "error": null,
+    "ok": true,
+    "trace_id": "trace_d01087edb0cf87e0"
+  }
+}

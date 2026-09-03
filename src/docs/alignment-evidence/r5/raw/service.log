@@ -1,0 +1,26 @@
+INFO:     Started server process [1522466]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8910 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51126 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437822.6312683,"trace_id":"trace_b64a99b1621b3354","tool":"symy_compare","error_code":null,"latency_ms":0.15590101247653365}
+INFO:     127.0.0.1:51136 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437822.6722114,"trace_id":"trace_14aef5931ca43f92","tool":"symy_cart","error_code":null,"latency_ms":0.5078039830550551}
+INFO:     127.0.0.1:51146 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437822.6760442,"trace_id":"trace_c337ca2c36f17de1","tool":"symy_cart","error_code":null,"latency_ms":0.12989999959245324}
+INFO:     127.0.0.1:51160 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437831.4629638,"trace_id":"trace_44f40b2979aa1d8b","tool":"symy_cart","error_code":null,"latency_ms":0.48480299301445484}
+INFO:     127.0.0.1:53516 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437853.6237206,"trace_id":"trace_0a6c146b1d9dd78e","tool":"symy_chat","error_code":null,"latency_ms":10125.837883999338}
+INFO:     127.0.0.1:58154 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437877.6564856,"trace_id":"trace_628339d3f074a001","tool":"symy_chat","error_code":null,"latency_ms":10947.745113982819}
+INFO:     127.0.0.1:44080 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788437977.0455499,"trace_id":"trace_34739fbf7b10edda","tool":"symy_chat","error_code":null,"latency_ms":6207.204865990207}
+INFO:     127.0.0.1:38098 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788438008.7369137,"trace_id":"trace_5f5fcb1b0a6fc538","tool":"symy_chat","error_code":null,"latency_ms":5320.2086460078135}
+INFO:     127.0.0.1:56354 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788438012.6966367,"trace_id":"trace_f3c95022b853b885","tool":"symy_chat","error_code":null,"latency_ms":0.06710001616738737}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1522466]

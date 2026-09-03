@@ -1,0 +1,27 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:09 GMT",
+      "server": "uvicorn",
+      "content-type": "text/event-stream; charset=utf-8",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "data: {\"type\": \"images\", \"payload\": {}, \"timestamp\": 1788437840.2514987}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5f88\", \"timestamp\": 1788437841.5041032}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u62b1\\u6b49\", \"timestamp\": 1788437841.5049994}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437841.505388}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u76ee\\u524d\", \"timestamp\": 1788437841.6366313}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6ca1\\u6709\", \"timestamp\": 1788437841.7733023}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8305\\u53f0\", \"timestamp\": 1788437841.914021}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8fd9\\u6b3e\", \"timestamp\": 1788437842.056988}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4ea7\\u54c1\", \"timestamp\": 1788437842.2538671}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437842.2546382}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u60a8\", \"timestamp\": 1788437842.2555535}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u662f\\u5426\", \"timestamp\": 1788437842.2562237}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9700\\u8981\", \"timestamp\": 1788437842.3345912}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4e86\\u89e3\", \"timestamp\": 1788437842.3351996}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5176\\u4ed6\", \"timestamp\": 1788437842.3357217}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u76f8\\u5173\", \"timestamp\": 1788437842.3362753}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4ea7\\u54c1\", \"timestamp\": 1788437842.4147482}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6216\\u8005\", \"timestamp\": 1788437842.4152684}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6709\", \"timestamp\": 1788437842.4158857}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5176\\u4ed6\", \"timestamp\": 1788437842.4163957}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9700\\u6c42\", \"timestamp\": 1788437842.4947212}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff1f\", \"timestamp\": 1788437842.4950688}\n\ndata: [DONE]\n\n",
+    "meta": {
+      "started": "2026-09-03T20:17:11.464404+08:00",
+      "finished": "2026-09-03T20:17:23.493607+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/query/stream",
+      "request_body": {
+        "user_id": 990027,
+        "query": "我想买茅台",
+        "context": "MONTHLY BUDGET: 200.00"
+      }
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:16:40 GMT",
+      "server": "uvicorn",
+      "content-length": "4796",
+      "content-type": "application/json"
+    },
+    "body": "{\"texts\":[\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 650.0 CNY\",\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 650.0 CNY\",\"2015年份贵州53°酱香酒道和盛宴白酒500ML道和商务酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 398.0 CNY\",\"2015年份道和盛宴酱香酒53度贵州酱香型商务白酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 358.0 CNY\",\"2014年私家珍藏道禾国韵酱香酒道和国韵1993贵州酒商务白酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 650.0 CNY\",\"贵批发州怀庄酒秘沙尊品纯粮食固态酿造53度酱香型白酒代发批发T | 义乌菀盈电子商务商行 | food,other\\nPRICE: 30.0 CNY\",\"2015年份盛宴贵州酒53°酱香酒茅道和酒盛宴道禾酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 398.0 CNY\",\"包邮！习酒知交四季礼盒酱香型白酒53度 500ml*2瓶礼盒装高度白酒 | 洋什铺 进口商品直销中心 | wine,酱香白酒\\nPRICE: 388.0 CNY\",\"2015年份盛世道禾53°白酒道和盛世茅台酒500ML | 温州市品道实业工厂 | wine,酱香白酒\\nPRICE: 398.0 CNY\",\"景德镇陶瓷酒坛子10斤20斤50斤装贵州茅台镇散酒酒缸酒罐白酒酒瓶 | 义乌鑫达商行 | wine,酱香白酒\\nPRICE: 48.75 CNY\"],\"ids\":[\"468687170647893184\",\"468687170647893183\",\"468687170647893195\",\"468687170647893159\",\"468687170647893189\",\"468687170647893201\",\"468687170647893186\",\"468687170647892797\",\"468687170647892779\",\"468687170647892743\"],\"similarities\":[0.7916341423988342,0.7916341423988342,0.7915873825550079,0.7891053557395935,0.7809170782566071,0.7796687185764313,0.7782964408397675,0.7750818133354187,0.7746694386005402,0.770465075969696],\"names\":[\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML\",\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML\",\"2015年份贵州53°酱香酒道和盛宴白酒500ML道和商务酒500ML\",\"2015年份道和盛宴酱香酒53度贵州酱香型商务白酒500ML\",\"2014年私家珍藏道禾国韵酱香酒道和国韵1993贵州酒商务白酒500ML\",\"贵批发州怀庄酒秘沙尊品纯粮食固态酿造53度酱香型白酒代发批发T\",\"2015年份盛宴贵州酒53°酱香酒茅道和酒盛宴道禾酒500ML\",\"包邮！习酒知交四季礼盒酱香型白酒53度 500ml*2瓶礼盒装高度白酒\",\"2015年份盛世道禾53°白酒道和盛世茅台酒500ML\",\"景德镇陶瓷酒坛子10斤20斤50斤装贵州茅台镇散酒酒缸酒罐白酒酒瓶\"],\"images\":[\"http://img1.yiwugo.com/i004/2022/02/13/79/e01b205672f8573ed8571e548c284f2e.jpg\",\"http://ywgimg.yiwugo.com/product/0218090/normal/966854632/20241012/DB2TjmcLlCF8622j.png?x-oss-process=image/resize,m_lfit,h_500,w_500\",\"http://img1.yiwugo.com/i004/2020/02/20/73/d42c33d1c2dcf3957da35fb1658791b3.jpg\",\"http://img1.yiwugo.com/i004/2019/10/08/31/9e282327c994d59ec1c99930a22ac328.png\",\"http://img1.yiwugo.com/i004/2022/05/25/82/7491e98bf6d224420be9864eb09f0750.jpg\",\"http://ywgimg.yiwugo.com/product/shop_271719/normal/977459831/20250831/qTvawY9b6HImSSDT.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500\",\"http://img1.yiwugo.com/i004/2021/12/17/66/2948ab5f001bab7f200ba963f440def1.jpg\",\"http://ywgimg.yiwugo.com/product/0560573/normal/984668511/20260402/20kC377EzvolIdUL.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500\",\"http://img1.yiwugo.com/i004/2021/12/17/75/72b9b16fb968e759eec13e0f145f26ec.jpg\",\"http://ywgimg.yiwugo.com/product/shop_269746/normal/957094439/20250703/GH72XpmLY4iHjSMC.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500\"],\"urls\":[\"https://www.yiwugo.com/product/detail/938657327.html\",\"https://www.yiwugo.com/product/detail/966854632.html\",\"https://www.yiwugo.com/product/detail/931147177.html\",\"https://www.yiwugo.com/product/detail/930894432.html\",\"https://www.yiwugo.com/product/detail/930894421.html\",\"https://www.yiwugo.com/product/detail/977459831.html\",\"https://www.yiwugo.com/product/detail/938244706.html\",\"https://www.yiwugo.com/product/detail/984668511.html\",\"https://www.yiwugo.com/product/detail/938244589.html\",\"https://www.yiwugo.com/product/detail/957094439.html\"],\"prices\":[650.0,650.0,398.0,358.0,650.0,30.0,398.0,388.0,398.0,48.75],\"ratings\":[null,null,null,null,null,null,null,null,null,null],\"currencies\":[\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\"],\"stale\":false,\"crawled_at\":[\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\"]}",
+    "meta": {
+      "started": "2026-09-03T20:16:41.718342+08:00",
+      "finished": "2026-09-03T20:16:42.530540+08:00",
+      "host": [
+        "localhost",
+        8010
+      ],
+      "method": "POST",
+      "path": "/query/text",
+      "request_body": {
+        "text": [
+          "茅台镇酱酒"
+        ],
+        "categories": [],
+        "filters": {},
+        "k": 10
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:16:42 GMT",
+      "server": "uvicorn",
+      "content-length": "4801",
+      "content-type": "application/json"
+    },
+    "body": "{\"texts\":[\"2015年份贵州53°酱香酒道和盛宴白酒500ML道和商务酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 398.0 CNY\",\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 650.0 CNY\",\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 650.0 CNY\",\"2015年份道和盛宴酱香酒53度贵州酱香型商务白酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 358.0 CNY\",\"2014年私家珍藏道禾国韵酱香酒道和国韵1993贵州酒商务白酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 650.0 CNY\",\"贵批发州怀庄酒秘沙尊品纯粮食固态酿造53度酱香型白酒代发批发T | 义乌菀盈电子商务商行 | food,other\\nPRICE: 30.0 CNY\",\"包邮！习酒知交四季礼盒酱香型白酒53度 500ml*2瓶礼盒装高度白酒 | 洋什铺 进口商品直销中心 | wine,酱香白酒\\nPRICE: 388.0 CNY\",\"2015年份盛宴贵州酒53°酱香酒茅道和酒盛宴道禾酒500ML | 温州市品道实业工厂 | food,other\\nPRICE: 398.0 CNY\",\"2015年份盛世道禾53°白酒道和盛世茅台酒500ML | 温州市品道实业工厂 | wine,酱香白酒\\nPRICE: 398.0 CNY\",\"白酒青案台10号酒53度酱香风味粮食酒散装白酒约10斤散装酒水批发 | 义乌菀盈电子商务商行 | food,other\\nPRICE: 43.89 CNY\"],\"ids\":[\"468687170647893195\",\"468687170647893184\",\"468687170647893183\",\"468687170647893159\",\"468687170647893189\",\"468687170647893201\",\"468687170647892797\",\"468687170647893186\",\"468687170647892779\",\"468687170647893202\"],\"similarities\":[0.8141529262065887,0.8130054771900177,0.8130054771900177,0.8022706806659698,0.793589174747467,0.7923049628734589,0.7911805808544159,0.7867155075073242,0.7855732440948486,0.7785314917564392],\"names\":[\"2015年份贵州53°酱香酒道和盛宴白酒500ML道和商务酒500ML\",\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML\",\"2014年份贵州酒国韵·典藏酱香酒道和国韵酒500ML\",\"2015年份道和盛宴酱香酒53度贵州酱香型商务白酒500ML\",\"2014年私家珍藏道禾国韵酱香酒道和国韵1993贵州酒商务白酒500ML\",\"贵批发州怀庄酒秘沙尊品纯粮食固态酿造53度酱香型白酒代发批发T\",\"包邮！习酒知交四季礼盒酱香型白酒53度 500ml*2瓶礼盒装高度白酒\",\"2015年份盛宴贵州酒53°酱香酒茅道和酒盛宴道禾酒500ML\",\"2015年份盛世道禾53°白酒道和盛世茅台酒500ML\",\"白酒青案台10号酒53度酱香风味粮食酒散装白酒约10斤散装酒水批发\"],\"images\":[\"http://img1.yiwugo.com/i004/2020/02/20/73/d42c33d1c2dcf3957da35fb1658791b3.jpg\",\"http://img1.yiwugo.com/i004/2022/02/13/79/e01b205672f8573ed8571e548c284f2e.jpg\",\"http://ywgimg.yiwugo.com/product/0218090/normal/966854632/20241012/DB2TjmcLlCF8622j.png?x-oss-process=image/resize,m_lfit,h_500,w_500\",\"http://img1.yiwugo.com/i004/2019/10/08/31/9e282327c994d59ec1c99930a22ac328.png\",\"http://img1.yiwugo.com/i004/2022/05/25/82/7491e98bf6d224420be9864eb09f0750.jpg\",\"http://ywgimg.yiwugo.com/product/shop_271719/normal/977459831/20250831/qTvawY9b6HImSSDT.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500\",\"http://ywgimg.yiwugo.com/product/0560573/normal/984668511/20260402/20kC377EzvolIdUL.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500\",\"http://img1.yiwugo.com/i004/2021/12/17/66/2948ab5f001bab7f200ba963f440def1.jpg\",\"http://img1.yiwugo.com/i004/2021/12/17/75/72b9b16fb968e759eec13e0f145f26ec.jpg\",\"http://ywgimg.yiwugo.com/product/shop_271719/normal/986118255/20260702/QNSuL11Jhbt6Ipaj.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500\"],\"urls\":[\"https://www.yiwugo.com/product/detail/931147177.html\",\"https://www.yiwugo.com/product/detail/938657327.html\",\"https://www.yiwugo.com/product/detail/966854632.html\",\"https://www.yiwugo.com/product/detail/930894432.html\",\"https://www.yiwugo.com/product/detail/930894421.html\",\"https://www.yiwugo.com/product/detail/977459831.html\",\"https://www.yiwugo.com/product/detail/984668511.html\",\"https://www.yiwugo.com/product/detail/938244706.html\",\"https://www.yiwugo.com/product/detail/938244589.html\",\"https://www.yiwugo.com/product/detail/986118255.html\"],\"prices\":[398.0,650.0,650.0,358.0,650.0,30.0,388.0,398.0,398.0,43.89],\"ratings\":[null,null,null,null,null,null,null,null,null,null],\"currencies\":[\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\",\"CNY\"],\"stale\":false,\"crawled_at\":[\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\",\"2026-08-29T10:01:07.795731+00:00\"]}",
+    "meta": {
+      "started": "2026-09-03T20:16:42.530608+08:00",
+      "finished": "2026-09-03T20:16:43.030653+08:00",
+      "host": [
+        "localhost",
+        8010
+      ],
+      "method": "POST",
+      "path": "/query/text",
+      "request_body": {
+        "text": [
+          "贵州酱香白酒"
+        ],
+        "categories": [],
+        "filters": {},
+        "k": 10
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:16:42 GMT",
+      "server": "uvicorn",
+      "content-type": "text/event-stream; charset=utf-8",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "data: {\"type\": \"images\", \"payload\": {}, \"timestamp\": 1788437817.1162953}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5f88\", \"timestamp\": 1788437818.2049177}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u62b1\\u6b49\", \"timestamp\": 1788437818.2054455}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437818.2056608}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u76ee\\u524d\", \"timestamp\": 1788437818.2813601}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6ca1\\u6709\", \"timestamp\": 1788437818.2822568}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5177\\u4f53\\u7684\", \"timestamp\": 1788437818.2828152}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9171\", \"timestamp\": 1788437818.283507}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9152\", \"timestamp\": 1788437818.357606}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4fe1\\u606f\", \"timestamp\": 1788437818.3600156}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u53ef\\u4f9b\", \"timestamp\": 1788437818.3603146}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5bf9\\u6bd4\", \"timestamp\": 1788437818.3605368}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437818.4360251}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5982\\u679c\\u60a8\", \"timestamp\": 1788437818.436697}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u80fd\", \"timestamp\": 1788437818.4372756}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u63d0\\u4f9b\", \"timestamp\": 1788437818.4378965}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u66f4\", \"timestamp\": 1788437818.6088388}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8be6\\u7ec6\", \"timestamp\": 1788437818.6095326}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u7684\\u4fe1\\u606f\", \"timestamp\": 1788437818.6102035}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437818.610691}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4f8b\\u5982\", \"timestamp\": 1788437818.7396913}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u54c1\\u724c\", \"timestamp\": 1788437818.8746166}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6216\", \"timestamp\": 1788437819.021193}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5177\\u4f53\", \"timestamp\": 1788437819.14956}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u7684\\u4ea7\\u54c1\", \"timestamp\": 1788437819.3349156}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u540d\\u79f0\", \"timestamp\": 1788437819.4648206}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437819.5997307}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6211\\u53ef\\u4ee5\", \"timestamp\": 1788437819.738145}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5e2e\", \"timestamp\": 1788437819.883163}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u60a8\", \"timestamp\": 1788437820.0393004}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u627e\\u5230\", \"timestamp\": 1788437820.170887}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u76f8\\u5e94\\u7684\", \"timestamp\": 1788437820.3769438}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4ea7\\u54c1\", \"timestamp\": 1788437820.4765449}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8fdb\\u884c\\u6bd4\\u8f83\", \"timestamp\": 1788437820.579593}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437820.7244933}\n\ndata: [DONE]\n\n",
+    "meta": {
+      "started": "2026-09-03T20:16:43.030722+08:00",
+      "finished": "2026-09-03T20:17:02.423669+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/query/stream",
+      "request_body": {
+        "user_id": 990027,
+        "query": "帮我对比两款酱酒",
+        "context": "用户关注茅台镇酱酒和贵州酱香白酒"
+      }
+    }
+  }
+]

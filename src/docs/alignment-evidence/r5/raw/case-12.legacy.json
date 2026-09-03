@@ -1,0 +1,152 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-length": "59",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990027,\"message\":\"Context updated successfully\"}",
+    "meta": {
+      "started": "2026-09-03T20:17:02.677420+08:00",
+      "finished": "2026-09-03T20:17:02.691416+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/context/990027",
+      "request_body": {
+        "new_context": "MONTHLY BUDGET: 200.00"
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-length": "122",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have set the quantity of '茅台镇酱酒 500ml' to 1.\"}",
+    "meta": {
+      "started": "2026-09-03T20:17:02.691463+08:00",
+      "finished": "2026-09-03T20:17:02.704916+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/cart/990027",
+      "request_body": {
+        "item": "茅台镇酱酒 500ml",
+        "amount": 1,
+        "price": 468.0,
+        "url": "https://www.yiwugo.com/product/detail/938657327.html",
+        "image": "http://img1.yiwugo.com/i004/2022/02/13/79/e01b205672f8573ed8571e548c284f2e.jpg"
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-length": "119",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have set the quantity of '贵州酱香白酒' to 1.\"}",
+    "meta": {
+      "started": "2026-09-03T20:17:02.704966+08:00",
+      "finished": "2026-09-03T20:17:02.719685+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/cart/990027",
+      "request_body": {
+        "item": "贵州酱香白酒",
+        "amount": 1,
+        "price": 328.0,
+        "url": "https://example.com/guizhou",
+        "image": "https://example.com/guizhou.jpg"
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-length": "125",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have set the quantity of '陈年贵州酱香白酒' to 1.\"}",
+    "meta": {
+      "started": "2026-09-03T20:17:02.719756+08:00",
+      "finished": "2026-09-03T20:17:02.737089+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/cart/990027",
+      "request_body": {
+        "item": "陈年贵州酱香白酒",
+        "amount": 1,
+        "price": 1280.0,
+        "url": "https://example.com/aged",
+        "image": "https://example.com/aged.jpg"
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-type": "text/event-stream; charset=utf-8",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "data: {\"type\": \"images\", \"payload\": {}, \"timestamp\": 1788437827.0080855}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9648\", \"timestamp\": 1788437828.1857827}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5e74\", \"timestamp\": 1788437828.1862683}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8d35\\u5dde\", \"timestamp\": 1788437828.1865797}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9171\", \"timestamp\": 1788437828.302344}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9999\", \"timestamp\": 1788437828.3029199}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u767d\\u9152\", \"timestamp\": 1788437828.3035612}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u662f\\u4e00\\u6b3e\", \"timestamp\": 1788437828.3040848}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9ad8\\u54c1\\u8d28\", \"timestamp\": 1788437828.3771021}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u7684\", \"timestamp\": 1788437828.377982}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9171\", \"timestamp\": 1788437828.3785403}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9999\", \"timestamp\": 1788437828.3792784}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u578b\", \"timestamp\": 1788437828.4551098}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u767d\\u9152\", \"timestamp\": 1788437828.4575038}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437828.4582646}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u975e\\u5e38\\u9002\\u5408\", \"timestamp\": 1788437828.4586306}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u60a8\\u7684\", \"timestamp\": 1788437828.5281634}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9700\\u6c42\", \"timestamp\": 1788437828.5287733}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437828.529504}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5b83\\u7684\", \"timestamp\": 1788437828.529846}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4ef7\\u683c\\u4e3a\", \"timestamp\": 1788437828.6479099}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u00a5128\", \"timestamp\": 1788437828.6482809}\n\ndata: {\"type\": \"content\", \"payload\": \"0\", \"timestamp\": 1788437828.648597}\n\ndata: {\"type\": \"content\", \"payload\": \".\", \"timestamp\": 1788437828.7789857}\n\ndata: {\"type\": \"content\", \"payload\": \"00\", \"timestamp\": 1788437828.914905}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437829.0574756}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u7565\", \"timestamp\": 1788437829.2037241}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9ad8\\u4e8e\", \"timestamp\": 1788437829.3526225}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u60a8\", \"timestamp\": 1788437829.5142484}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4e4b\\u524d\", \"timestamp\": 1788437829.6766155}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u63d0\\u5230\\u7684\", \"timestamp\": 1788437829.6771023}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9884\\u7b97\", \"timestamp\": 1788437829.6775799}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437829.6781118}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5982\\u679c\\u60a8\", \"timestamp\": 1788437829.7960289}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u613f\\u610f\", \"timestamp\": 1788437829.7963855}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8003\\u8651\", \"timestamp\": 1788437829.7965732}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u8fd9\\u6b3e\", \"timestamp\": 1788437829.796754}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9ad8\\u4ef7\", \"timestamp\": 1788437829.8742747}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9171\", \"timestamp\": 1788437829.87472}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9152\", \"timestamp\": 1788437829.875504}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437829.8761036}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5b83\", \"timestamp\": 1788437829.953411}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5c06\", \"timestamp\": 1788437829.9537976}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u662f\\u4e00\\u4e2a\", \"timestamp\": 1788437829.9546995}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4e0d\\u9519\\u7684\\u9009\\u62e9\", \"timestamp\": 1788437829.95586}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437830.1092682}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u540c\\u65f6\", \"timestamp\": 1788437830.1094744}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437830.1097887}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5982\\u679c\\u60a8\", \"timestamp\": 1788437830.1102028}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9700\\u8981\", \"timestamp\": 1788437830.228149}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9884\\u7b97\", \"timestamp\": 1788437830.228486}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5185\\u7684\", \"timestamp\": 1788437830.2289028}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u5176\\u4ed6\", \"timestamp\": 1788437830.229223}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9171\", \"timestamp\": 1788437830.3038435}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9152\", \"timestamp\": 1788437830.304221}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u9009\\u9879\", \"timestamp\": 1788437830.304846}\n\ndata: {\"type\": \"content\", \"payload\": \"\\uff0c\", \"timestamp\": 1788437830.3057253}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u6211\\u53ef\\u4ee5\", \"timestamp\": 1788437830.3799412}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4e3a\\u60a8\", \"timestamp\": 1788437830.3804224}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u63a8\\u8350\", \"timestamp\": 1788437830.3807085}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u4e00\\u4e9b\", \"timestamp\": 1788437830.3812375}\n\ndata: {\"type\": \"content\", \"payload\": \"\\u3002\", \"timestamp\": 1788437830.4565558}\n\ndata: [DONE]\n\n",
+    "meta": {
+      "started": "2026-09-03T20:17:02.737141+08:00",
+      "finished": "2026-09-03T20:17:11.451397+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/query/stream",
+      "request_body": {
+        "user_id": 990027,
+        "query": "我想加购一件高价酱酒",
+        "context": "MONTHLY BUDGET: 200.00"
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:09 GMT",
+      "server": "uvicorn",
+      "content-length": "502",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990027,\"cart\":[{\"item\":\"茅台镇酱酒 500ml\",\"amount\":1,\"price\":468.0,\"url\":\"https://www.yiwugo.com/product/detail/938657327.html\",\"image\":\"http://img1.yiwugo.com/i004/2022/02/13/79/e01b205672f8573ed8571e548c284f2e.jpg\"},{\"item\":\"贵州酱香白酒\",\"amount\":1,\"price\":328.0,\"url\":\"https://example.com/guizhou\",\"image\":\"https://example.com/guizhou.jpg\"},{\"item\":\"陈年贵州酱香白酒\",\"amount\":1,\"price\":1280.0,\"url\":\"https://example.com/aged\",\"image\":\"https://example.com/aged.jpg\"}]}",
+    "meta": {
+      "started": "2026-09-03T20:17:11.451457+08:00",
+      "finished": "2026-09-03T20:17:11.458751+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "GET",
+      "path": "/cart/990027",
+      "request_body": null
+    }
+  }
+]

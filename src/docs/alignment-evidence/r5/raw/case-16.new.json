@@ -1,0 +1,66 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:22 GMT",
+      "server": "uvicorn",
+      "cache-control": "no-cache, no-transform",
+      "connection": "keep-alive",
+      "content-type": "text/event-stream",
+      "x-accel-buffering": "no",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":17,\"result\":{\"content\":[{\"text\":\"{\\\"trace_id\\\":\\\"trace_0a6c146b1d9dd78e\\\",\\\"ok\\\":true,\\\"data\\\":{\\\"reply_draft\\\":\\\"当前预算范围内暂无匹配的茅台商品。您可以尝试放宽价格或预算，或者搜索其他相关产品。如果您确定要购买茅台，建议您在购买前再次确认价格和预算。目前购物车为空，请添加您想购买的商品并确认数量，然后点击结算，但结算尚未进行。饮酒需谨慎，请适量。\\\",\\\"product_cards\\\":[],\\\"actions\\\":[{\\\"type\\\":\\\"search\\\",\\\"payload\\\":{\\\"query\\\":\\\"茅台\\\"}}],\\\"warnings\\\":[{\\\"code\\\":\\\"BUDGET_EXCEEDED_WARNING\\\",\\\"message\\\":\\\"预算较紧，建议先比较单价或选择小规格；如果现在确实需要，也由你决定。\\\"}]},\\\"error\\\":null}\",\"type\":\"text\"}],\"isError\":false,\"structuredContent\":{\"trace_id\":\"trace_0a6c146b1d9dd78e\",\"ok\":true,\"data\":{\"reply_draft\":\"当前预算范围内暂无匹配的茅台商品。您可以尝试放宽价格或预算，或者搜索其他相关产品。如果您确定要购买茅台，建议您在购买前再次确认价格和预算。目前购物车为空，请添加您想购买的商品并确认数量，然后点击结算，但结算尚未进行。饮酒需谨慎，请适量。\",\"product_cards\":[],\"actions\":[{\"type\":\"search\",\"payload\":{\"query\":\"茅台\"}}],\"warnings\":[{\"code\":\"BUDGET_EXCEEDED_WARNING\",\"message\":\"预算较紧，建议先比较单价或选择小规格；如果现在确实需要，也由你决定。\"}]},\"error\":null}}}\r\n\r\n",
+    "meta": {
+      "started": "2026-09-03T20:17:23.493976+08:00",
+      "finished": "2026-09-03T20:17:33.624913+08:00",
+      "host": [
+        "127.0.0.1",
+        8910
+      ],
+      "method": "POST",
+      "path": "/mcp/",
+      "request_body": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "method": "tools/call",
+        "params": {
+          "name": "symy_chat",
+          "arguments": {
+            "user_message": "我想买茅台",
+            "context": {
+              "user_ref": "align-r5-16",
+              "session_ref": "align-r5-16",
+              "lang": "zh",
+              "currency": "CNY",
+              "budget_cents": 20000
+            }
+          }
+        }
+      }
+    },
+    "parsed_tool_result": {
+      "trace_id": "trace_0a6c146b1d9dd78e",
+      "ok": true,
+      "data": {
+        "reply_draft": "当前预算范围内暂无匹配的茅台商品。您可以尝试放宽价格或预算，或者搜索其他相关产品。如果您确定要购买茅台，建议您在购买前再次确认价格和预算。目前购物车为空，请添加您想购买的商品并确认数量，然后点击结算，但结算尚未进行。饮酒需谨慎，请适量。",
+        "product_cards": [],
+        "actions": [
+          {
+            "type": "search",
+            "payload": {
+              "query": "茅台"
+            }
+          }
+        ],
+        "warnings": [
+          {
+            "code": "BUDGET_EXCEEDED_WARNING",
+            "message": "预算较紧，建议先比较单价或选择小规格；如果现在确实需要，也由你决定。"
+          }
+        ]
+      },
+      "error": null
+    }
+  }
+]

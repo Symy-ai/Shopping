@@ -1,0 +1,22 @@
+INFO:     Started server process [719777]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8906 (Press CTRL+C to quit)
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788326223.797096,"trace_id":"trace_d01087edb0cf87e0","tool":"symy_search","error_code":null,"latency_ms":0.13054200098849833}
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788326223.8608916,"trace_id":"trace_e898edd1876226e1","tool":"symy_compare","error_code":null,"latency_ms":0.14964801084715873}
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788326223.8701744,"trace_id":"trace_c4f30c864d6dd859","tool":"symy_cart","error_code":null,"latency_ms":0.42033399222418666}
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788326223.8785439,"trace_id":"trace_7959d03d594f32a2","tool":"symy_cart","error_code":null,"latency_ms":0.21136800933163613}
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788326223.8857214,"trace_id":"trace_9f48e36a891b2c9a","tool":"symy_cart","error_code":null,"latency_ms":0.4110320005565882}
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+{"ts":1788326223.8937147,"trace_id":"trace_1c07ab93286cf7e7","tool":"symy_chat","error_code":null,"latency_ms":0.24767899594735354}
+INFO:     127.0.0.1:46686 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [719777]

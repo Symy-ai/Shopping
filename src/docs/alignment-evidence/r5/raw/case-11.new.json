@@ -1,0 +1,126 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:02 GMT",
+      "server": "uvicorn",
+      "cache-control": "no-cache, no-transform",
+      "connection": "keep-alive",
+      "content-type": "text/event-stream",
+      "x-accel-buffering": "no",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":17,\"result\":{\"content\":[{\"text\":\"{\\\"trace_id\\\":\\\"trace_14aef5931ca43f92\\\",\\\"ok\\\":true,\\\"data\\\":{\\\"cart_lines\\\":[{\\\"product_ref\\\":\\\"maotai-town-500ml\\\",\\\"title\\\":\\\"茅台镇酱酒 500ml\\\",\\\"qty\\\":2,\\\"price_cents\\\":46800,\\\"currency\\\":\\\"CNY\\\",\\\"image_url\\\":\\\"https://ddimg.cn/hotlink/maotai-town.jpg\\\",\\\"unit_price_cents\\\":46800}],\\\"cart_total_cents\\\":93600,\\\"warnings\\\":[]},\\\"error\\\":null}\",\"type\":\"text\"}],\"isError\":false,\"structuredContent\":{\"trace_id\":\"trace_14aef5931ca43f92\",\"ok\":true,\"data\":{\"cart_lines\":[{\"product_ref\":\"maotai-town-500ml\",\"title\":\"茅台镇酱酒 500ml\",\"qty\":2,\"price_cents\":46800,\"currency\":\"CNY\",\"image_url\":\"https://ddimg.cn/hotlink/maotai-town.jpg\",\"unit_price_cents\":46800}],\"cart_total_cents\":93600,\"warnings\":[]},\"error\":null}}}\r\n\r\n",
+    "meta": {
+      "started": "2026-09-03T20:17:02.665909+08:00",
+      "finished": "2026-09-03T20:17:02.673100+08:00",
+      "host": [
+        "127.0.0.1",
+        8910
+      ],
+      "method": "POST",
+      "path": "/mcp/",
+      "request_body": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "method": "tools/call",
+        "params": {
+          "name": "symy_cart",
+          "arguments": {
+            "action": "add",
+            "context": {
+              "user_ref": "align-r5-11",
+              "session_ref": "align-r5-11",
+              "lang": "zh",
+              "currency": "CNY"
+            },
+            "item": {
+              "product_ref": "maotai-town-500ml",
+              "qty": 1
+            }
+          }
+        }
+      }
+    },
+    "parsed_tool_result": {
+      "trace_id": "trace_14aef5931ca43f92",
+      "ok": true,
+      "data": {
+        "cart_lines": [
+          {
+            "product_ref": "maotai-town-500ml",
+            "title": "茅台镇酱酒 500ml",
+            "qty": 2,
+            "price_cents": 46800,
+            "currency": "CNY",
+            "image_url": "https://ddimg.cn/hotlink/maotai-town.jpg",
+            "unit_price_cents": 46800
+          }
+        ],
+        "cart_total_cents": 93600,
+        "warnings": []
+      },
+      "error": null
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:02 GMT",
+      "server": "uvicorn",
+      "cache-control": "no-cache, no-transform",
+      "connection": "keep-alive",
+      "content-type": "text/event-stream",
+      "x-accel-buffering": "no",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":17,\"result\":{\"content\":[{\"text\":\"{\\\"trace_id\\\":\\\"trace_c337ca2c36f17de1\\\",\\\"ok\\\":true,\\\"data\\\":{\\\"cart_lines\\\":[{\\\"product_ref\\\":\\\"maotai-town-500ml\\\",\\\"title\\\":\\\"茅台镇酱酒 500ml\\\",\\\"qty\\\":2,\\\"price_cents\\\":46800,\\\"currency\\\":\\\"CNY\\\",\\\"image_url\\\":\\\"https://ddimg.cn/hotlink/maotai-town.jpg\\\",\\\"unit_price_cents\\\":46800}],\\\"cart_total_cents\\\":93600,\\\"warnings\\\":[]},\\\"error\\\":null}\",\"type\":\"text\"}],\"isError\":false,\"structuredContent\":{\"trace_id\":\"trace_c337ca2c36f17de1\",\"ok\":true,\"data\":{\"cart_lines\":[{\"product_ref\":\"maotai-town-500ml\",\"title\":\"茅台镇酱酒 500ml\",\"qty\":2,\"price_cents\":46800,\"currency\":\"CNY\",\"image_url\":\"https://ddimg.cn/hotlink/maotai-town.jpg\",\"unit_price_cents\":46800}],\"cart_total_cents\":93600,\"warnings\":[]},\"error\":null}}}\r\n\r\n",
+    "meta": {
+      "started": "2026-09-03T20:17:02.673202+08:00",
+      "finished": "2026-09-03T20:17:02.676832+08:00",
+      "host": [
+        "127.0.0.1",
+        8910
+      ],
+      "method": "POST",
+      "path": "/mcp/",
+      "request_body": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "method": "tools/call",
+        "params": {
+          "name": "symy_cart",
+          "arguments": {
+            "action": "list",
+            "context": {
+              "user_ref": "align-r5-11",
+              "session_ref": "align-r5-11",
+              "lang": "zh",
+              "currency": "CNY"
+            }
+          }
+        }
+      }
+    },
+    "parsed_tool_result": {
+      "trace_id": "trace_c337ca2c36f17de1",
+      "ok": true,
+      "data": {
+        "cart_lines": [
+          {
+            "product_ref": "maotai-town-500ml",
+            "title": "茅台镇酱酒 500ml",
+            "qty": 2,
+            "price_cents": 46800,
+            "currency": "CNY",
+            "image_url": "https://ddimg.cn/hotlink/maotai-town.jpg",
+            "unit_price_cents": 46800
+          }
+        ],
+        "cart_total_cents": 93600,
+        "warnings": []
+      },
+      "error": null
+    }
+  }
+]

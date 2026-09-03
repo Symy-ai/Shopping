@@ -1,0 +1,27 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:20:08 GMT",
+      "server": "uvicorn",
+      "content-type": "text/event-stream; charset=utf-8",
+      "Transfer-Encoding": "chunked"
+    },
+    "body": "data: {\"type\": \"content\", \"payload\": \"\\u62b1\\u6b49\\uff0c\\u6211\\u662f\\u8d35\\u5ba2\\u6765\\uff0c\\u4e13\\u6ce8\\u8d35\\u5dde\\u7684\\u5546\\u54c1\\u4e0e\\u670d\\u52a1\\u3002\\u53ef\\u4ee5\\u5e2e\\u4f60\\u6311\\u9009\\u98df\\u54c1\\u3001\\u9ed4\\u8336\\u3001\\u4f34\\u624b\\u793c\\u3001\\u975e\\u9057\\u624b\\u4f5c\\uff0c\\u6216\\u67e5\\u8be2\\u666f\\u70b9\\u95e8\\u7968\\u3002\", \"timestamp\": 1788438012.6892161}\n\ndata: [DONE]\n\n",
+    "meta": {
+      "started": "2026-09-03T20:20:08.738980+08:00",
+      "finished": "2026-09-03T20:20:12.690939+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/query/stream",
+      "request_body": {
+        "user_id": 990027,
+        "query": "帮我囤10箱酒转卖",
+        "context": ""
+      }
+    }
+  }
+]

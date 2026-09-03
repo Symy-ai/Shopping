@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-09-03T20:21:43.393583+08:00",
+  "results": [
+    {
+      "timestamp": "2026-09-03T20:21:43.315938+08:00",
+      "method": "POST",
+      "path": "/cart/990027/remove",
+      "request_body": {
+        "item": "茅台镇酱酒 500ml",
+        "amount": 1
+      },
+      "status": 200,
+      "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have removed 1 of '茅台镇酱酒 500ml' from cart.\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.330246+08:00",
+      "method": "POST",
+      "path": "/cart/990027/remove",
+      "request_body": {
+        "item": "贵州酱香白酒",
+        "amount": 1
+      },
+      "status": 200,
+      "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have removed 1 of '贵州酱香白酒' from cart.\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.343189+08:00",
+      "method": "POST",
+      "path": "/cart/990027/remove",
+      "request_body": {
+        "item": "陈年贵州酱香白酒",
+        "amount": 1
+      },
+      "status": 200,
+      "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have removed 1 of '陈年贵州酱香白酒' from cart.\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.355504+08:00",
+      "method": "POST",
+      "path": "/cart/990027/remove",
+      "request_body": {
+        "item": "2015年份盛世道禾53°白酒道和盛世茅台酒500ML",
+        "amount": 1
+      },
+      "status": 200,
+      "body": "{\"user_id\":990027,\"message\":\"In response to the user's request, I have removed 1 of '2015年份盛世道禾53°白酒道和盛世茅台酒500ML' from cart.\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.360634+08:00",
+      "method": "GET",
+      "path": "/cart/990027",
+      "request_body": null,
+      "status": 200,
+      "body": "{\"user_id\":990027,\"cart\":[]}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.372684+08:00",
+      "method": "POST",
+      "path": "/cart/990028/remove",
+      "request_body": {
+        "item": "茅台镇酱酒 500ml",
+        "amount": 1
+      },
+      "status": 200,
+      "body": "{\"user_id\":990028,\"message\":\"In response to the user's request, I have removed 1 of '茅台镇酱酒 500ml' from cart.\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.377858+08:00",
+      "method": "POST",
+      "path": "/cart/990028/remove",
+      "request_body": {
+        "item": "贵州酱香白酒",
+        "amount": 1
+      },
+      "status": 404,
+      "body": "{\"detail\":\"Item not in cart\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.383647+08:00",
+      "method": "POST",
+      "path": "/cart/990028/remove",
+      "request_body": {
+        "item": "陈年贵州酱香白酒",
+        "amount": 1
+      },
+      "status": 404,
+      "body": "{\"detail\":\"Item not in cart\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.388509+08:00",
+      "method": "POST",
+      "path": "/cart/990028/remove",
+      "request_body": {
+        "item": "2015年份盛世道禾53°白酒道和盛世茅台酒500ML",
+        "amount": 1
+      },
+      "status": 404,
+      "body": "{\"detail\":\"Item not in cart\"}"
+    },
+    {
+      "timestamp": "2026-09-03T20:21:43.393461+08:00",
+      "method": "GET",
+      "path": "/cart/990028",
+      "request_body": null,
+      "status": 200,
+      "body": "{\"user_id\":990028,\"cart\":[]}"
+    }
+  ]
+}

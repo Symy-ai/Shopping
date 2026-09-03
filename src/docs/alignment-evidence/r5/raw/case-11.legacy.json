@@ -1,0 +1,50 @@
+[
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-length": "122",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990028,\"message\":\"In response to the user's request, I have set the quantity of '茅台镇酱酒 500ml' to 1.\"}",
+    "meta": {
+      "started": "2026-09-03T20:17:02.634399+08:00",
+      "finished": "2026-09-03T20:17:02.659480+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "POST",
+      "path": "/cart/990028",
+      "request_body": {
+        "item": "茅台镇酱酒 500ml",
+        "amount": 1,
+        "price": 468.0,
+        "url": "https://www.yiwugo.com/product/detail/938657327.html",
+        "image": "https://ddimg.cn/hotlink/maotai-town.jpg"
+      }
+    }
+  },
+  {
+    "status": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 12:17:00 GMT",
+      "server": "uvicorn",
+      "content-length": "197",
+      "content-type": "application/json"
+    },
+    "body": "{\"user_id\":990028,\"cart\":[{\"item\":\"茅台镇酱酒 500ml\",\"amount\":1,\"price\":468.0,\"url\":\"https://www.yiwugo.com/product/detail/938657327.html\",\"image\":\"https://ddimg.cn/hotlink/maotai-town.jpg\"}]}",
+    "meta": {
+      "started": "2026-09-03T20:17:02.659534+08:00",
+      "finished": "2026-09-03T20:17:02.665825+08:00",
+      "host": [
+        "localhost",
+        8009
+      ],
+      "method": "GET",
+      "path": "/cart/990028",
+      "request_body": null
+    }
+  }
+]
